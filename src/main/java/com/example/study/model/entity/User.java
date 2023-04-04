@@ -21,8 +21,9 @@ public class User {
     private String phoneNumber;
     private LocalDateTime createdAt;
     private String createdBy;
-    private LocalDateTime updateAt;
-    private String updateBy;
+    private LocalDateTime updatedAt;
+    private String updatedBy;
+    private String plus;
 
     //인수가 없는 entity생성자를 필요로 하는 이유-https://stackoverflow.com/questions/2808747/why-does-jpa-require-a-no-arg-constructor-for-domain-objects
 }
